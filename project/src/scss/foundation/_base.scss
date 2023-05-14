@@ -1,0 +1,7 @@
+@use "./font" as f;
+@use "./mixin" as m;
+@use "./color" as c;
+
+body {
+  font-size: 10px;
+}
