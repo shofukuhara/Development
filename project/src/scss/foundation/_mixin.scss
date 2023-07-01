@@ -29,7 +29,7 @@
 
 
 // サイズ可変
-@function vw($size, $viewport: 1280) {
+@function pc($size, $viewport: 1280) {
   $rate: calc(100 / $viewport);
   @return ($rate * $size * 1vw);
 }

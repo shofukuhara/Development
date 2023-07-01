@@ -1,0 +1,36 @@
+include ./_config
+- var title = "ここにサイトのタイトル記述";
+
+doctype html
+html(lang="ja")
+	head
+		include ./include/_head
+	body
+		//- include ./include/_header
+		.fv
+		.bgImage
+			.maskFront
+			.maskBack 
+		.bg.rellax(
+	data-rellax-mobile-speed="1"
+	data-rellax-percentage="0"
+	data-rellax-tablet-speed="0.7"
+	data-rellax-desktop-speed="3"
+	data-rellax-zindex="2")
+		.area
+			.circleArea
+				svg(class="svg")
+					path(d="M 3, 58 A 55 55 0 1 0 113 58A 55 55 0 1 0 3 58")/
+		.wavearea
+			.wave01
+				img(src="img/wave.svg" alt="" srcset="")
+				img(src="img/wave.svg" alt="" srcset="")
+			.wave02
+				img(src="img/wave.svg" alt="" srcset="")
+				img(src="img/wave.svg" alt="" srcset="")
+			.wave03
+				img(src="img/wave.svg" alt="" srcset="")
+				img(src="img/wave.svg" alt="" srcset="")
+		.bgarea
+		//- include ./include/_footer
+		include ./include/_script

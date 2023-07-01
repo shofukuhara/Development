@@ -1,0 +1,23 @@
+# Rellax
+# // ------------------------------------------
+# // Rellax.js
+# // Buttery smooth parallax library
+# // Copyright (c) 2016 Moe Amaya (@moeamaya)
+# // MIT license
+# //
+# // Thanks to Paraxify.js and Jaime Cabllero
+# // for parallax concepts
+# // ------------------------------------------
+
+# swiper
+# /**
+#  * Swiper 8.4.4
+#  * Most modern mobile touch slider and framework with hardware accelerated transitions
+#  * https://swiperjs.com
+#  *
+#  * Copyright 2014-2022 Vladimir Kharlampidi
+#  *
+#  * Released under the MIT License
+#  *
+#  * Released on: October 12, 2022
+#  */
